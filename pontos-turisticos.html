@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tarefa avaliativa, matéria Tecnologias Web"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, IFSUL, TECNOLOGIAS WEB,">
+    <meta name="author" content="Deivison Souza">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Pontos Turísticos de Porto Velho</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pontos Turísticos de Porto Velho</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="cidade.html">Cidade</a>
+          </li>
+          <li>
+            <a href="culinaria.html">Culinária</a>
+          </li>
+          <li>
+            <a href="pontos-turisticos.html">Pontos Turísticos</a>
+          </li>
+          <li>
+            <a href="noia-dance.html">Noia Dance</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Conheça os principais pontos turísticos</h2>
+      <p>
+        <strong>Porto Velho</strong> possui diversos pontos turísticos que representam sua
+        história, cultura e beleza natural. A seguir, alguns dos locais mais
+        visitados por turistas e moradores.
+      </p>
+
+      <h3>Complexo da Estrada de Ferro Madeira-Mamoré</h3>
+      <div class="content">
+        <img
+          src="./images/complexo-madeira-mamore.jpg"
+          alt="Madeira-Mamoré"
+        />
+        <p>
+          Um dos locais mais históricos da cidade, construído no <u>início do século XX</u>
+          e símbolo da luta dos trabalhadores que ergueram a lendária ferrovia.
+        </p>
+      </div>
+   
+      <h3>Parque Natural de Porto Velho</h3>
+      <div class="content">
+        <img
+          src="./images/parque-natural.jpg"
+          alt="Parque Natural"
+        />
+        <p>
+          Área verde preservada ideal para trilhas, caminhadas e contato com a
+          natureza.
+        </p>
+      </div>
+   
+      <h2>Formulário de Contato</h2>
+      <p>
+        Entre em contato para saber mais sobre os pontos turísticos ou enviar
+        sugestões.
+      </p>
+
+      <form action="#" method="post">
+        <label>Nome Completo:</label><br />
+        <input type="text" name="nome" required />
+
+        <label>E-mail:</label><br />
+        <input type="email" name="email" required />
+
+        <label>Você já visitou Porto Velho?</label><br />
+        <select name="visitou">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+
+        <label
+          >Quais pontos você tem interesse? (Selecione os que desejar)</label
+        ><br />
+        <input type="checkbox" name="interesse" value="efmm" /> Estrada de Ferro
+        Madeira-Mamoré<br />
+        <input type="checkbox" name="interesse" value="parque" /> Parque
+        Natural<br />
+        <input type="checkbox" name="interesse" value="outros" />
+        Outros<br /><br />
+
+        <label>Mensagem:</label><br />
+        <textarea name="mensagem" rows="5"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2025 - Site sobre Porto Velho - Deivison Souza</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+# Ignorar arquivos comprimidos .rar
+*.rar
+
+# Ignorar a pasta de configurações do VS Code
+.vscode/
